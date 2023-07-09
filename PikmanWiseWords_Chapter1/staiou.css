@@ -1,0 +1,42 @@
+h1
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: #14a3dc;
+    
+}
+body
+{
+    background-color: #212121;
+    
+}
+
+*{text-align:center}
+
+#pikman
+{
+    position:absolute;
+    top:18%;
+    left:50%;
+    transform: translate(-50%);
+}
+
+#boca{
+position: absolute;
+top: 33.3%;
+left: 50%;
+transform: translate(-50%)
+}
+
+button
+{
+    height:60px; width:150px;
+    border:4px solid rgb(192, 20, 43);
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px rgb(10, 2, 0);
+}
+
+button:hover
+{
+    scale: 1.1;
+}
